@@ -20,7 +20,7 @@ You could learn more about VirtualBox by visiting: https://www.virtualbox.org/
 
 ## Clone this repository by typing: 
 ````
-git clone
+git clone https://github.com/firedot/packer_redis64.git
 ```` 
 ### VirtualBox phase
 Install VirtualBox on your machine. 
@@ -75,7 +75,7 @@ vagrant box add --name redis64 redis64.box
   kitchen destroy
   ````
   
-## You may do all of the above in automated manner
+## You may do all of the above testing in automated manner
 
   ````
   kitchen test
