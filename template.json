@@ -1,6 +1,6 @@
 {
   "variables": {
-    "name": "firedot/ubuntu1604",
+    "name": "firedot/redis64",
     "build_name": "redis64",
     "build_cpu_cores": "2",
     "build_memory": "1024",
@@ -26,7 +26,7 @@
   },
   "builders": [
     {
-      "name": "{{ user `build_name` }}-vbox",
+      "name": "{{ user `build_name` }}",
       "vm_name": "{{ user `build_name` }}-vbox",
       "boot_command": [
         "<enter><f6><esc><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs>",
