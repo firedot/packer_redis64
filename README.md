@@ -42,18 +42,18 @@ Kitchen-vagrant test for Vagrant box
 * [VirtualBox](https://www.virtualbox.org/manual/ch02.html)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 
-1. Run the following command to make your box available to Vagrant: 
+ 1. Run the following command to make your box available to Vagrant: 
 
 ````
 vagrant box add --name redis64 redis64.box
 ````
 **This will make the box created with packer available to vagrant**
-2. Another way to obtain the box is by executing the following command: 
+ 2. Another way to obtain the box is by executing the following command: 
     ````
     vagrant box add firedot/redis64
     ````
       The previous line will download the already built box from the VagrantCloud.
-3. Install kitchen by installing the [ChefDK](https://downloads.chef.io/chefdk)
+ 3. Install kitchen by installing the [ChefDK](https://downloads.chef.io/chefdk)
   
 ## How to test: 
 1. Go into the cloned repo dir
