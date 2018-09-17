@@ -48,7 +48,7 @@ Kitchen-vagrant test for Vagrant box
 vagrant box add --name redis64 redis64.box
 ````
 **This will make the box created with packer available to vagrant**
-    2.1 Another way to obtain the box is by executing the following command: 
+2. Another way to obtain the box is by executing the following command: 
     ````
     vagrant box add firedot/redis64
     ````
