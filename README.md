@@ -52,7 +52,7 @@ vagrant box add --name redis64 redis64.box
     ````
     vagrant box add firedot/redis64
     ````
-      The previous line will download the already built box from the VagrantCloud. 
+      The previous line will download the already built box from the VagrantCloud.
 3. Install kitchen by installing the [ChefDK](https://downloads.chef.io/chefdk)
   
 ## How to test: 
