@@ -38,7 +38,7 @@ packer build template.json
 ## How to test your box
 Kitchen-vagrant test for Vagrant box
 
-##Prerequisites: 
+## Prerequisites: 
 * [VirtualBox](https://www.virtualbox.org/manual/ch02.html)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 
