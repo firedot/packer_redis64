@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: vbox/redise4
+    driver:
+      box: redis64
+
+verifier:
+  name: inspec
+
+suites:
+  - name: default
